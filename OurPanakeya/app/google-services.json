@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "834057326663",
+    "project_id": "panakea-dd27d",
+    "storage_bucket": "panakea-dd27d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834057326663:android:e2749c7aa729a8a32ba162",
+        "android_client_info": {
+          "package_name": "com.panakeya.OURpanakeya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834057326663-vksajih7i4hanl5fc2e6d6eebre5qlk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.panakeya.OURpanakeya",
+            "certificate_hash": "f72aeba6fc0de8746357507dcd97d0c29ad7774c"
+          }
+        },
+        {
+          "client_id": "834057326663-1s9pv3kk4okc4261jf1jd1cbn4o3o4fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBga5iVkJ37HyzxvYYMc5vJMDj15g2mo5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834057326663-1s9pv3kk4okc4261jf1jd1cbn4o3o4fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="183dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom"
+        android:textAppearance="@style/Welcom" />
+
+
+    <TextView
+        android:id="@+id/welcome_two"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="391dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/Welcom_two"
+        android:textAppearance="@style/welcom_two" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_two"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttom"
+        android:fontFamily="@font/roboto"
+        android:text="@string/btnSignIn"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignIn"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttom"
+
+        android:fontFamily="@font/roboto"
+        android:text="@string/btnRegister"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:id="@+id/roor_element"
+    >
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="133dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/some_id"
+        android:textAppearance="@style/some_id"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/register_phone_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:hint="@string/umber"
+        android:inputType="number"
+        android:layout_below="@+id/spinner_input"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_input"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/register_username_input"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp"
+
+        />
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:hint="@string/user2"
+        android:inputType="text"
+        android:layout_below="@+id/some_id"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_phone_input"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/input_welcome"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:hint="@string/password_two"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/purpul_2"
+        android:textColorHint="@color/purpui_3"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="176dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/register_password_input"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="604dp"
+        android:background="@drawable/buttom"
+        android:text="создать" />
+
+</RelativeLayout>

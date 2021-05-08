@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RedisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/applogo"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+
+                android:layout_marginTop="79dp"
+                android:src="@drawable/logo"
+
+
+                />
+
+            <EditText
+                android:id="@+id/login_phone_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/input_welcome"
+                android:hint="@string/umber"
+                android:inputType="number"
+                android:padding="15dp"
+                android:textColor="@color/purpul_2"
+                android:textColorHint="@color/purpui_3"
+                android:textSize="14sp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/login_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/input_welcome"
+                android:hint="@string/password_input"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/purpul_2"
+                android:textColorHint="@color/purpui_3"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/liner_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/foregt_password_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_mail_input"
+
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/playfairdisplay_regular"
+                    android:text="@string/foregt_password"
+                    android:textColor="@color/purpul_2"
+                    android:textSize="13sp"
+
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="176dp"
+                android:layout_height="40dp"
+                android:text="@string/btnSignIn"
+                android:background="@drawable/buttom"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="115dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/welcome_two"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="41dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/playfairdisplay_regular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/Welcom_two"
+                android:textAppearance="@style/welcom_two" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/registr_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="@font/playfairdisplay_regular"
+                    android:text="@string/registr_link"
+                    android:textColor="@color/purpul_2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/registrlinkunput"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:fontFamily="@font/playfairdisplay_regular"
+                    android:text="@string/registr_link_"
+                    android:textColor="@color/purpul"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
